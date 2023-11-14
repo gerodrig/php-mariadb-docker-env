@@ -1,0 +1,41 @@
+# General
+*.log
+*.sql
+*.tar.gz
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+**/.env
+**/.env.*
+docker-compose.override.yaml
+
+# Docker volumes directory
+db/*
+
+# PHPstorm project files
+.idea/
+
+# Node modules
+node_modules/
+
+# Composer dependencies
+/vendor/
+
+# PHP server specific
+php_errors.log
+
+# Security
+*.cert
+*.key
+
+#vscode settings
+.vscode/
